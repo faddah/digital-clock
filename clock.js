@@ -7,9 +7,9 @@ const sec = document.querySelector(`#sec`);
 setInterval(() => {
     let currentTime = new Date();
 
-    hrs.innerHTML = currentTime.getHours().toString().padStart(2, '0');
-    min.innerHTML = currentTime.getMinutes().toString().padStart(2, '0');
-    sec.innerHTML = currentTime.getSeconds().toString().padStart(2, '0');
+    hrs.innerHTML = (currentTime.getHours() < 10 ? "0" : "") + currentTime.getHours();
+    min.innerHTML = (currentTime.getMinutes() < 10 ? "0" : "") + currentTime.getMinutes();
+    sec.innerHTML = (currentTime.getSeconds() < 10 ? "0" : "") + currentTime.getSeconds();
 }, 1000);
 
 /* * * * * * * * * * * * * * * * * * * * * * * 
