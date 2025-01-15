@@ -7,8 +7,12 @@
 	padding: 0;
 }
 
-body {
-	font-size: 80px
+htnml, body {
+	font-size: 80px;
+	min-width: 820px;
+	width: 800px; 
+	height: 200px; s
+  overflow: auto; 
 }
 
 .hero {
