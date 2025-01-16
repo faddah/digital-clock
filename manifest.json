@@ -1,11 +1,11 @@
 {
-	"name": "Digital CLock Chrome Extension",
+	"name": "Digital Clock Chrome Extension",
     "version": "1.0.0",
-    "description": "A Desk Calendar with Current Date & Digital Clock time.",
+    "description": "A Digital Clock Drop-down Chrome Extension that displays the current time on your computer.",
 		"manifest_version": 3, 
     "action": {
         "default_popup": "index.html?width=820px&height=200px",
-				"default_title": "Digital Calendar Extension",
+				"default_title": "Digital Clock Extension",
 				"default_icon": {
 					"16": "images/icon16.png",
 					"48": "images/icon48.png",
