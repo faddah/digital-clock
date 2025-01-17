@@ -17,8 +17,9 @@ htnml, body {
 
 .hero {
 	background: linear-gradient(45deg, #08001f, #30197d);
+	border-radius: 30px;
 	color: #fff;
-	min-height: 100vh;
+	min-height: 35vh;
 	position: relative;
 	width: 100%;
 }
