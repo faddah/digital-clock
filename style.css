@@ -8,6 +8,7 @@
 }
 
 htnml, body {
+	background: linear-gradient(45deg, #08001f, #30197d);
 	font-size: 80px;
 	min-width: 820px;
 	width: 800px; 
@@ -16,12 +17,13 @@ htnml, body {
 }
 
 .hero {
-	background: linear-gradient(45deg, #08001f, #30197d);
 	border-radius: 30px;
 	color: #fff;
 	min-height: 35vh;
 	position: relative;
+	top: 6rem;
 	width: 100%;
+	height: auto;
 }
 
 .container {
