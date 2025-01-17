@@ -2,6 +2,8 @@
 
 # Digital Clock
 
+## v1.1.0
+
 ## Made in JavaScript
 
 ## Can also be a Google Chrome Browser Extension by using the `manifest.json` file
