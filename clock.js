@@ -14,12 +14,14 @@ setInterval(() => {
 }, 1000);
 * * * * * * * * * * * * * * * * * * * * * * */
 
-const updateTime = () => {
-    let currentTime = new Date();
+// I learned how to calculate the current time in seconds returned from Date.now() from this GeeksForGeeks post: 
+// https://www.geeksforgeeks.org/how-to-convert-seconds-to-time-string-format-hhmmss-using-javascript/
 
-    hrs.innerHTML = (currentTime.getHours() < 10 ? "0" : "") + currentTime.getHours();
-    min.innerHTML = (currentTime.getMinutes() < 10 ? "0" : "") + currentTime.getMinutes();
-    sec.innerHTML = (currentTime.getSeconds() < 10 ? "0" : "") + currentTime.getSeconds();
+const updateTime = () => {
+  let currentTime = Math.floor(Date.now() / 1000);
+  hrs.innerHTML = Math.floor(((currentTime / 3600) % 24) - 8).toString().padStart(2, '0');
+  min.innerHTML = Math.floor((currentTime / 60) % 60).toString().padStart(2, '0');
+  sec.innerHTML = (currentTime % 60).toString().padStart(2, '0');
 }
 
 // Call updateTime once to set the initial time
