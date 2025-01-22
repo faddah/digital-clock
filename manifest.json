@@ -1,6 +1,6 @@
 {
 	"name": "Digital Clock Chrome Extension",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "A Digital Clock Drop-down Chrome Extension that displays the current time on your computer.",
 		"manifest_version": 3, 
     "action": {
