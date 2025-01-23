@@ -2,7 +2,7 @@
 
 # Digital Clock
 
-## v1.2.1
+## v1.2.2
 
 ## Made in JavaScript
 
